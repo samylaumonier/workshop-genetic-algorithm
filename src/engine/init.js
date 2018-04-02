@@ -1,0 +1,10 @@
+import './seed';
+import './optimize';
+import './select1';
+import './select2';
+import './fitness';
+import './crossover';
+import './generation';
+import './mutate';
+import './notification';
+import './helpers';

@@ -1,0 +1,20 @@
+{
+  "name": "workshop-genetic-algorithm",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "parcel build public/index.html",
+    "start": "parcel public/index.html"
+  },
+  "author": "Samy Laumonier <samy.laumonier@gmail.com> (https://github.com/samybob1)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "parcel-bundler": "^1.6.2"
+  },
+  "dependencies": {
+    "genetic-js": "^0.1.14",
+    "lodash": "^4.17.5"
+  }
+}
