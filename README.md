@@ -30,9 +30,9 @@ Here are the tasks you will have to complete:
 | width | number | Width of the canvas (pixels) |
 | height | number | Height of the canvas (pixels) |
 | height | number | Height of the canvas (pixels) |
-| gridStep | number | Size of a grid cell (pixel) |
-| pointRadius | number | Radius of the "start" and "end" points (pixel) |
-| individualRadius | number | Radius of individuals (pixel) |
+| gridStep | number | Size of a grid cell (pixels) |
+| pointRadius | number | Radius of the "start" and "end" points (pixels) |
+| individualRadius | number | Radius of individuals (pixels) |
 | fps | number | Number of frames to render per second |
 | highlightBestIndividual | boolean | Allows to highlight the two bests individuals |
 | drawLosersPath | boolean | Allows to render the paths taken by the individuals that don't find a solution |
@@ -42,7 +42,7 @@ Here are the tasks you will have to complete:
 
 ### Lib configuration
 
-You can find the details on the [lib documentation](https://github.com/subprotocol/genetic-js#configuration-parameters) .
+You can find the details on the [lib documentation](https://github.com/subprotocol/genetic-js#configuration-parameters).
 
 ### Engine configuration
 
@@ -53,7 +53,7 @@ You can find the details on the [lib documentation](https://github.com/subprotoc
 | directions | object | Directions that an individual can follow |
 | startPoint | object | Point where the individuals are spawning |
 | endPoint | object | Point that the individuals will try to reach |
-| gridStep | number | Size of a grid cell (pixel) |
+| gridStep | number | Size of a grid cell (pixels) |
 | stopOnWin | boolean | Allows to stop the engine as soon as a solution has been found |
 
 ## Step by step
