@@ -19,9 +19,42 @@ Here are the tasks you will have to complete:
 
 ## Before you start
 
-// TODO: talk about config file, helpers and lib (subprotocol/genetic-js)
+* This workshop is built on top of the [genetic-js](https://github.com/subprotocol/genetic-js) lib.
+* [The slides are available here](https://slides.com/samy-laumonier/introduction-algorithmes-genetiques) (french).
+* All the configuration of the project is available in **src/config/index.js**.
 
-[Slides (french)](https://slides.com/samy-laumonier/introduction-algorithmes-genetiques)
+### Viewer configuration
+
+| Key | Type | Description |
+|---|---|---|
+| width | number | Width of the canvas (pixels) |
+| height | number | Height of the canvas (pixels) |
+| height | number | Height of the canvas (pixels) |
+| gridStep | number | Size of a grid cell (pixel) |
+| pointRadius | number | Radius of the "start" and "end" points (pixel) |
+| individualRadius | number | Radius of individuals (pixel) |
+| fps | number | Number of frames to render per second |
+| highlightBestIndividual | boolean | Allows to highlight the two bests individuals |
+| drawLosersPath | boolean | Allows to render the paths taken by the individuals that don't find a solution |
+| drawFitness | boolean | Allows to render the fitness score of individuals |
+| drawStats | boolean | Allows to render the stats on the top left corner |
+| fastPreviewMode | boolean | Allows to render only the last state for each generation |
+
+### Lib configuration
+
+You can find the details on the [lib documentation](https://github.com/subprotocol/genetic-js#configuration-parameters) .
+
+### Engine configuration
+
+
+| Key | Type | Description |
+|---|---|---|
+| totalGenes | number | Number of genes that each individual should have |
+| directions | object | Directions that an individual can follow |
+| startPoint | object | Point where the individuals are spawning |
+| endPoint | object | Point that the individuals will try to reach |
+| gridStep | number | Size of a grid cell (pixel) |
+| stopOnWin | boolean | Allows to stop the engine as soon as a solution has been found |
 
 ## Step by step
 
