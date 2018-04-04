@@ -233,4 +233,7 @@ would have to avoid.
 
 ## Final solution
 
-You can find a fully working version of the project [here](https://github.com/samybob1/workshop-genetic-algorithm/tree/06894734260f5759b234b04937890f3a1155581a).
+You can find two solutions here:
+
+* [Simple solution](https://github.com/samybob1/workshop-genetic-algorithm/pull/1/files)
+* [Advanced solution](https://github.com/samybob1/workshop-genetic-algorithm/pull/2/files)
