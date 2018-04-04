@@ -220,6 +220,8 @@ engine.mutate = function (individual) {
 
 ## Bonus steps
 
+You can use [other available helpers](https://github.com/samybob1/workshop-genetic-algorithm/tree/master/src/engine/helpers), or write your own.
+
 * In the `seed()` method, you can prevent individuals to move to a
 direction that is the inverse of the previous one. The first generation
 would still be random, but a little bit less dumb.
