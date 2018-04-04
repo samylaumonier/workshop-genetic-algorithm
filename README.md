@@ -15,7 +15,7 @@ Here are the tasks you will have to complete:
 1. Implement the `seed()` method, that should return a random individual.
 2. Implement the `fitness(individual)` method, that should return a score for a given individual.
 3. Implement the `crossover(mother, father)` method, that should return an array of children individuals for two given parents individuals.
-4. Implement the `mutate(individual)` method, that should mutate and return a giver individual.
+4. Implement the `mutate(individual)` method, that should mutate and return a given individual.
 
 ## Before you start
 
@@ -220,7 +220,16 @@ engine.mutate = function (individual) {
 
 ## Bonus steps
 
-// TODO
+* In the `seed()` method, you can prevent individuals to move to a
+direction that is the inverse of the previous one. The first generation
+would still be random, but a little bit less dumb.
+* In the `fitness(individual)` method, you can use the number of moves
+of an individual. This way, if two individuals find a solution, you can
+say which one is better than the other.
+* You can add the diagonal directions (north east, south
+east, south west and north west).
+* It could be cool to be able to draw walls on the grid, that individuals
+would have to avoid.
 
 ## Final solution
 
