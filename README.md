@@ -1,6 +1,6 @@
 # Genetic Algorithm - Workshop
 
-![Preview](doc/preview.gif)
+// TODO: add GIF
 
 ## Setup
 
