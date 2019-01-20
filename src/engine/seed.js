@@ -1,11 +1,9 @@
 import { engine } from './';
 
 engine.seed = function () {
-  const { totalGenes } = this.getConfig();
-
-  return {
-    genes: new Array(totalGenes)
-      .fill(null)
-      .map(() => this.getRandomDirection()),
+  const individual = {
+    genes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
   };
+
+  return individual;
 };
