@@ -9,12 +9,14 @@
   "author": "Samy Laumonier <samy.laumonier@gmail.com> (https://github.com/samybob1)",
   "license": "MIT",
   "devDependencies": {
+    "babel-core": "^6.26.3",
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "parcel-bundler": "^1.6.2"
+    "parcel-bundler": "^1.11.0"
   },
   "dependencies": {
     "genetic-js": "^0.1.14",
-    "lodash": "^4.17.5"
+    "lodash": "^4.17.11"
   }
 }
